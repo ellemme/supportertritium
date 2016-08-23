@@ -2,7 +2,7 @@
   <name>Supporter Tritium</name>
   <description>L'applicazione per i tifosi della Tritium.</description>
   <author href="http://www.ellemmesolutions.com" email="info@ellemmesolutions.com">Ellemme Solutions</author>
-  <content src="index.html"/>
+  <content src="www/index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>

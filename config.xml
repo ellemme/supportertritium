@@ -1,8 +1,8 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.supporter" version="1.0.0">
   <name>Supporter Tritium</name>
   <description>L'applicazione per i tifosi della Tritium.</description>
-  <author href="http://www.ellemmesolutions.com" email="info@ellemmesolutions.com">Ellemme Solutions</author>
   <content src="www/index.html"/>
+  <access origin="*"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
   <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
@@ -96,8 +96,7 @@
     <icon src="www/res/icon/windows/Wide310x150Logo.scale-240.png" platform="windows" width="744" height="360"/>
     <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows" width="1152" height="1920"/>
   </platform>
-  <access origin="*"/>
-  <allow-navigation href="http://supportertritium.ellemmesolutions.com/*" />
+  <allow-navigation href="http://www.ellemmesolutions.com/works/prod/supporter" />
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>

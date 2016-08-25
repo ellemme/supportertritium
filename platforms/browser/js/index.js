@@ -33,8 +33,8 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-		alert("Hello! I am an alert box!!");
-		window.location.href = "http://www.ellemmesolutions.com";
+		alert("Bug #123");
+		window.open('http://www.google.com', '_blank', 'location=no,hidden=yes,closebuttoncaption=Done,toolbar=no');
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event

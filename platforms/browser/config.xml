@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.supporter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Supporter Tritium</name>
-    <description>An app for Tritiu Sopporter.</description>
-    <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
-	<allow-navigation href="http://supportertritium.ellemmesolutions.com/*" />
+    <description>An app for Tritium Sopporter.</description>
     <content src="index.html" />
     <icon src="icons.png" />
     <access origin="*" />

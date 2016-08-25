@@ -34,7 +34,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
 		alert("Bug #123");
-		window.open('http://www.google.com', '_blank', 'location=no,hidden=yes,closebuttoncaption=Done,toolbar=no');
+		navigator.app.loadUrl("http://www.google.com", {openExternal : true});
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event

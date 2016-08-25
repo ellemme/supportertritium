@@ -1,7 +1,8 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.supporter" version="1.0.0">
   <name>Supporter Tritium</name>
   <description>L'applicazione per i tifosi della Tritium.</description>
-  <content src="www/index.html"/>
+  <content src="index.html"/>
+   <icon src="icon.png">
   <access origin="*"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
